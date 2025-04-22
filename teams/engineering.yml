@@ -10,6 +10,7 @@
 name: Engineering
 policies:
   - path: ../lib/macos-device-health.policies.yml
+  - path: ../lib/some-windows-policy.policies.yml
 queries:
   - path: ../lib/collect-failed-login-attempts.queries.yml
 agent_options:
