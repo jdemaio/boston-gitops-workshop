@@ -20,7 +20,7 @@ controls:
       - path: ../lib/disable-bluetooth-file-sharing.mobileconfig
   macos_updates:
     deadline: "2025-05-15"
-    mininum_version: "15.4.0"
+    minimum_version: "15.4.0"
   scripts:
     - path: ../lib/remove-zoom-artifacts.script.sh
 team_settings:
