@@ -30,5 +30,5 @@ team_settings:
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
 software:
-  packagaes:
+  packages:
     - path: ../lib/zoom.yml
