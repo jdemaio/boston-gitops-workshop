@@ -19,8 +19,8 @@ controls:
     custom_settings:
       -path: ../lib/disable-bluetooth-file-sharing.mobileconfig
   macos_updates:
-    deadline: "2025-05-15"  -string with YYY-MM-DD format
-    mininum_version: "15.4.0" -also a string!
+    deadline: "2025-05-15"
+    mininum_version: "15.4.0"
   scripts:
     - path: ../lib/remove-zoom-artifacts.script.sh
 team_settings:
