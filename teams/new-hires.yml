@@ -7,9 +7,10 @@
 # Then add that secret to .github/workflows/workflow.yml as an env variable.
 # The secret name in the YAML file must match the secret name in GitHub Actions secrets.
 
-name: Engineering
+name: New Hires
 policies:
   - path: ../lib/macos-device-health.policies.yml
+  - path: ../lib/dns-resolvers.policies.yml
 queries:
   - path: ../lib/collect-failed-login-attempts.queries.yml
 agent_options:
