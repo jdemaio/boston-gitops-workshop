@@ -24,6 +24,7 @@ controls:
     minimum_version: "15.4.0"
   scripts:
     - path: ../lib/remove-zoom-artifacts.script.sh
+    - path: ../lib/update-dns.sh
 team_settings:
   secrets:
     - secret: "$FLEET_NEW_HIRES_ENROLL_SECRET"
